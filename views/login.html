@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Welcome</h1>
+        <li class="main-header__item"> <a class="active" href="home">Home</a></li> <br>
+        <h2>Login Form</h2>
+        <form class="Login-form" action="/api/loginForm" method="POST">
+            <div class="login-control mx-auto" style="width: 200px">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required placeholder="email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="password"><br><br>
+            </div>
+            <button class="btn" type="submit">Log In</button>
+
+        </form>
+        
+        <form class="Logout-form" action="/api/logout" method="POST">
+            <button class="btn" type="submit">Log Out</button>
+        </form>
+
+        <form class="signup-form" action="/api/signupForm" method="GET">
+            <h2> New User, sign up here </h2>
+            <button class="btn" type="submit">Sign Up</button>
+        </form>
+    </main>
+</body>
+
+</html>

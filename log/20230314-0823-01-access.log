@@ -1,0 +1,6 @@
+
+Request: GET /api/register at Mon Mar 13 2023 20:15:01 GMT-0400, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Response: 404 2.883 ms 
+
+Request: GET /api/register at Mon Mar 13 2023 20:15:22 GMT-0400, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+Response: 404 1.101 ms 

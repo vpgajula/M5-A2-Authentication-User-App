@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <h1>Welcome to my first website!</h1>
+            <ul class="main-header__item-list" size="3" aria-label="size 3 select example">
+        <!-- href resources are always a GET request, so the calls should always hit the GET route paths in the API-->
+                <li class="main-header__item"> <a class="active" href="home">Home</a></li> <br>
+                <li class="main-header__item"> <a class="active" href="signup">Sign up</a></li> <br>
+                <li class="main-header__item"> <a class="active" href="login">Login</a></li> <br>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-control mx-auto" style="width: 600px">
+            <h6>This is a test page to validate the application resources</h6>
+            <!-- message is the place holder for the dynamic data and the property name -->
+            <h6>User: <%=name%></h6>
+            <h6>Email: <%=email%></h6>
+        </div>
+
+    </main>
+</body>
+
+</html>

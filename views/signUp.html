@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <main>
+        <li class="main-header__item"> <a class="active" href="home">Home</a></li> <br>
+        <h2>New Users, register here</h2>
+        <form class="product-form" action="/api/signup" method="POST">
+
+            <div class="form-control" style="width: 200px">
+                <label for="name">User Name</label>
+                <input type="text" name="name" id="name"></input><br><br>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"></input><br><br>
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password"></input><br><br>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="text" name="confirmPassword" id="confirmPassword"></input><br><br>
+            </div>
+            <div class="buttons">
+                <button class="btn" type="submit">Sign-Up</button>
+                <button class="btn" type="reset">Reset</button><br>
+            </div>
+        </form>
+        <form class="user-form" action="/api/loginForm" method="GET"> 
+            <h2> Already registered, click Login </h2>
+            <button class="btn" type="submit">Login</button> 
+        </form>
+    </main>
+</body>
+
+</html>

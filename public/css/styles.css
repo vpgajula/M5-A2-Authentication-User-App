@@ -1,0 +1,57 @@
+h1 { 
+    font-size: 2em; 
+    color: blue; 
+}
+
+h2 { 
+    font-size: 1.5em; 
+    color: rgb(23, 14, 116)
+}
+
+h6 { 
+    font-size: 1em; 
+    color: rgb(106, 15, 68)
+}
+
+label {
+    font-size: 1.5 em; 
+    color: black;
+}
+
+input {
+    border: 1px solid blue;
+    height: 2em;
+    width: 25em;
+}
+
+.btn {
+    font-size: 1em; 
+    color: rgb(25, 42, 228);
+    width: 8em;
+    height: 2em;
+     
+}
+
+.buttons {
+    display: flex;
+    gap: 2em;    
+}
+
+.Login-form {
+    background-color: rgb(192, 193, 249);
+}
+
+.Logout-form {
+    background-color: rgb(192, 193, 249);
+    padding: 2em 0;
+}
+
+.main-header__item {
+    font-size: 1em; 
+    background-color: rgb(191, 240, 247);
+}
+
+.active {
+    font-size: 1em; 
+    color: blue;
+}

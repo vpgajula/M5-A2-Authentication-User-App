@@ -1,0 +1,39 @@
+{
+  "name": "m5-a1-authentication-user-app",
+  "version": "1.0.0",
+  "description": "M5-A1-Authentication-User-App",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpgajula/M5-A1-Authentication-User-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpgajula/M5-A1-Authentication-User-App/issues"
+  },
+  "homepage": "https://github.com/vpgajula/M5-A1-Authentication-User-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "morgan-body": "^2.6.8",
+    "path": "^0.12.7",
+    "rotating-file-stream": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
